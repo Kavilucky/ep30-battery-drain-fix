@@ -1,0 +1,11 @@
+.env
+*.env
+config.json
+passwd
+*.log
+__pycache__/
+.venv/
+*.pyc
+# журнал изменений на вашем телефоне не коммитится
+wakelock_changes.txt
+wakelock_changes.txt.restored

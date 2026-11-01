@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerURL</key>
+				<string>https://dns.adguard-dns.com/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Системный зашифрованный DNS (DoH) AdGuard DNS без стороннего VPN. Канал @ByteAutomate_AI</string>
+			<key>PayloadDisplayName</key>
+			<string>AdGuard DNS (DoH)</string>
+			<key>PayloadIdentifier</key>
+			<string>ru.bytea.dns.adguard.settings</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>70E9BBDE-6432-4824-AF75-75E2E96390B1</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Профиль DNS для блокировки рекламы и трекеров на уровне системы. Удаляется в Настройки, Основные, VPN и управление устройством.</string>
+	<key>PayloadDisplayName</key>
+	<string>Private DNS: AdGuard (ByteAutomate)</string>
+	<key>PayloadIdentifier</key>
+	<string>ru.bytea.dns.adguard</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>8BF4C854-9A94-4DBE-A876-011CE4DE4AA4</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
